@@ -54,6 +54,53 @@ header a {
   background: white;
 }
 
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.7),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+footer h4 {
+  font-weight: 700px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 80%;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  color: white;
+  opacity: 70%;
+}
+
+footer ul {
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  margin: 30px 40px;
+  grid-gap: 32px;
+  max-width: 100%;
+  padding: 30px;
+}
+
 @media (max-width: 800px) {
   header {
     padding: 200px;

@@ -220,36 +220,30 @@ section.secondary {
 }
 @media (max-width: 800px) {
   header {
-    padding: 200px;
+    padding: 60px 0;
   }
 
   header h3 {
-    font-weight: 900;
     font-size: 12px;
-    line-height: 1;
-    letter-spacing: 3px;
   }
   header h1 {
-    font-weight: 700;
     font-size: 48px;
-    line-height: 1;
-    margin: 10px 0;
   }
 
   header h2 {
-    font-weight: 400;
     font-size: 20px;
-    line-height: 1;
   }
 
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 50px;
+    grid-gap: 32px;
   }
 
   .grid-2column {
     grid-template-columns: 1fr;
-    grid-gap: 50px;
+    text-align: center;
+    margin: 0;
+    grid-gap: 0;
   }
 
   section {
@@ -261,22 +255,20 @@ section.secondary {
   }
 
   main h4 {
-    font-weight: 700;
     font-size: 20px;
   }
 
   main h5 {
-    font-weight: 700;
     font-size: 15px;
   }
 
   main p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    opacity: 0.7;
+    font-size: 14px;
   }
 
+  main h3 {
+    font-size: 35px;
+  }
   .button {
     font-size: 7px;
   }
@@ -287,5 +279,10 @@ section.secondary {
 
   .card .header {
     display: none;
+  }
+
+  section .history {
+    max-width: 300px;
+    padding: 50px 0px;
   }
 }

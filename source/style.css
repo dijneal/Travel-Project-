@@ -167,7 +167,16 @@ main p {
 }
 
 .grid-3column img {
-  max-width: 160px;
+  max-width: 100px;
+}
+
+.header.grid-2column {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100px;
+  aspect-ratio: 1/1;
 }
 
 .card {
@@ -204,6 +213,10 @@ section.secondary {
 
 .text-center {
   text-align: center;
+}
+
+.twitter-embeds {
+  margin: 30px 0;
 }
 @media (max-width: 800px) {
   header {
